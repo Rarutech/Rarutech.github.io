@@ -1,1 +1,0 @@
-import{r as o,j as e}from"./index-Cbl3KShC.js";function r({className:a="",...t}){const[s,i]=o.useState(!1);return e.jsxs("div",{className:`image-skeleton-wrapper ${a}`,children:[!s&&e.jsx("div",{className:"skeleton absolute-fill"}),e.jsx("img",{...t,onLoad:()=>i(!0),className:`image ${s?"image--visible":"image--hidden"}`})]})}export{r as I};
